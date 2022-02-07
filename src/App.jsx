@@ -21,6 +21,11 @@ function App() {
       titulo:'Praticar React',
       completa: true
     },
+    {
+      id:3,
+      titulo:'Praticar React',
+      completa: true
+    },
   ])
 
   //Props são as propriedades de um componente que podem ser passadas para seus filhos
