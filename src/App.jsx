@@ -1,6 +1,7 @@
 import './App.css'
 import {useState} from 'react'
 import Tarefas from './components/Tarefas'
+import AddContainer from './components/AddContainer'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
   return (
     <>
       <div className='container'>
+      <AddContainer tarefas={tarefas} />
       <Tarefas tarefas={tarefas} />
       </div>
     </>

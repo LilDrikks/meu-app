@@ -1,0 +1,19 @@
+.tarefaCss{
+    transition: 0.2s;
+    color:white;
+    background-color: rgb(104, 104, 104);
+    text-align: left;
+    border-radius: 5px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+.tarefaCss:hover{
+    transition: 0.2s;
+    border-left: 2px solid blueviolet;
+    color:springgreen;
+}
+.tarefaDisplay{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

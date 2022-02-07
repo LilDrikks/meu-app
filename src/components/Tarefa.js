@@ -1,6 +1,11 @@
+import styles from './Tarefa.module.css'
 const Tarefa = ({tarefa}) => {
-    //
-    return ( <h1>{tarefa.titulo}</h1> );
+
+    return ( 
+        <div  className={styles.tarefaDisplay}>
+        <p className={styles.tarefaCss}>{tarefa.titulo}</p>
+        </div>
+        );
 }
  
 export default Tarefa;
